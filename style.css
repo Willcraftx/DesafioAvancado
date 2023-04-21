@@ -1,0 +1,95 @@
+body {
+  background-color: #2c2b3d;
+
+  min-height: 100vh;
+}
+
+a,
+h1,
+footer {
+  color: #ffffff;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.page {
+  width: 1050px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+/* Barra de navegacao -----------------------*/
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+}
+nav ul li {
+  font-size: 14px;
+  line-height: 28px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Principal -----------------------------*/
+
+section {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 40px;
+
+  margin: 100px auto 150px;
+}
+
+section h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section span {
+  color: #00bfa6;
+}
+
+section p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #c2c2c2;
+}
+
+
+/* Rodape -------------------------------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #00bfa6;
+  margin-bottom: 20px;
+}
+
+.padlock {
+  position: fixed;
+  left: 20px;
+  top:680px;
+}
